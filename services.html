@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharp Automobiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="./logo.jpeg" alt="Sharp Automobiles Logo" class="logo">
+    <h1>Sharp Automobiles</h1>
+    <nav class="header-nav">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="services.html" class="nav-btn">Services</a>
+        <a href="about.html" class="nav-btn">About Us</a>
+        <a href="contact.html" class="nav-btn">Contact Us</a>
+       
+    </nav>
+</header>
+    
+    <div class="container">
+        <h2>Our Services</h2>
+    </div>
+    
+    <section class="services-section">
+        <div class="service-item">
+            <h3>Car Repair</h3>
+            <p>We provide quality car repair services to keep your vehicle running smoothly.</p>
+        </div>
+    
+        <section class="services">
+            <div class="service-item dropdown">
+                <h3 onclick="toggleDropdown(this)">Mechanical Services <span>▼</span></h3>
+                <div class="dropdown-content">
+                    <p>Engine Repair</p>
+                    <p>Transmission Repair</p>
+                    <p>Brake Services</p>
+                    <p>Suspension Repair</p>
+                    <p>Oil Change</p>
+                    <p>Air Conditioning Service</p>
+                    <p>Timing Belt Replacement</p>
+                    <p>Clutch Repair</p>
+                    <p>Fuel System Repair</p>
+                    <p>Exhaust System Repair</p>
+                </div>
+            </div>
+        
+            <div class="service-item dropdown">
+                <h3 onclick="toggleDropdown(this)">Car Maintenance <span>▼</span></h3>
+                <div class="dropdown-content">
+                    <p>Regular Inspections</p>
+                    <p>Battery Checks</p>
+                    <p>Fluid Changes</p>
+                    <p>Tire Rotation</p>
+                    <p>Wheel Alignment</p>
+                    <p>Brake Inspection</p>
+                    <p>Air Filter Replacement</p>
+                    <p>Belts and Hoses Check</p>
+                    <p>Engine Diagnostics</p>
+                    <p>Transmission Fluid Change</p>
+                </div>
+            </div>
+        
+            <div class="service-item dropdown">
+                <h3 onclick="toggleDropdown(this)">Car Wash <span>▼</span></h3>
+                <div class="dropdown-content">
+                    <p>Exterior Wash</p>
+                    <p>Interior Cleaning</p>
+                    <p>Full Detailing</p>
+                    <p>Waxing</p>
+                    <p>Window Cleaning</p>
+                    <p>Odor Removal</p>
+                    <p>Engine Bay Cleaning</p>
+                    <p>Floor Mat Cleaning</p>
+                    <p>Upholstery Shampoo</p>
+                    <p>Paint Protection</p>
+                </div>
+            </div>
+        
+            <div class="service-item dropdown">
+                <h3 onclick="toggleDropdown(this)">Car Inspection <span>▼</span></h3>
+                <div class="dropdown-content">
+                    <p>Safety Inspection</p>
+                    <p>Emission Test</p>
+                    <p>Vehicle History Report</p>
+                    <p>Pre-purchase Inspection</p>
+                    <p>Pre-trip Inspection</p>
+                    <p>Fluid Level Check</p>
+                    <p>Battery Health Check</p>
+                    <p>Lighting System Check</p>
+                    <p>Brakes and Tires Check</p>
+                    <p>Engine Performance Check</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    
+        
+        
+
+    <footer>
+        &copy; 2022 Sharp Automobiles
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
